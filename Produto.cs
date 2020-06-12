@@ -3,9 +3,13 @@ namespace Aula16Construtores
     public class Produto
     {
         public int Codigo { get; set; }
-        public int Nome { get; set; }
-        public int Descricao { get; set; }
+        public string Nome { get; set; }
+        public string Descricao { get; set; }
         public int Estoque { get; set; }
+
+        public Produto(){
+
+        }
 
         public Produto(int _codigo){
             this.Codigo = _codigo;
